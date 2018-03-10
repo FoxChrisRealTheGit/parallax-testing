@@ -13,14 +13,14 @@ class App extends Component {
         // style={{overflowY: 'scroll', overflowX: 'hidden', perspective: '2px'}}
       >
         {/* Tis the season! */}
-        <StarWars />
+        {/*<StarWars />*/}
         
         {/* simple css parallax images */}
-        {/* <CSSParallax />  */}
+        {/*  <CSSParallax />  */}
 
 
         {/* parallax with javascript. boxes scroll at different speeds */}
-        {/* <MoarParallax /> */}
+        <MoarParallax /> 
 
       </div>
     );
